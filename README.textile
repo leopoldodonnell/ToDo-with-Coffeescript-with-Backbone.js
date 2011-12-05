@@ -1,18 +1,25 @@
-ToDo with Coffeescript and Backbone
-===================================
+h1. ToDo with Coffeescript and Backbone
 
 This is a literal translation from javascript into CoffeeScript of Jérôme Gravel-Niquet's One Page App, Todo List.
 
 All of the files, including the generated javascript are here and should run directly from within your filesystem (i.e. no need to put it onto a web server instance).
 
-Application Files:
-* todo.coffee : my translation - FWIW, its a lot cleaner and easier to read the the JS version
-* todo.js : the generated javascript
+h2. *SKILZ*
+
+* Intermetiate+ javascript
+* Basic CoffeeScript: see "CoffeeScript":http://jashkenas.github.com/coffee-script/
+* Get Acquainted with Bacbone and Underscore: see "Backbone":http://documentcloud.github.com/backbone/ and "Underscore":http://documentcloud.github.com/underscore/
+* Javascript debugging: I recommend the Chrome javascript console - you can pick through the DOM, watch network traffic, and enter break points in the code.
+
+h2. *Application Files:*
+* todos.coffee : my translation - FWIW, its a lot cleaner and easier to read the the JS version
+* todos.js : the generated javascript
+* todos.orig.js : the original source that I translated from
 * index.html : I've only modified the paths to resources and included those resources in the current directory
 * todo.css : no change from Jérôme's
 * destroy.png : no change
 
-JS Libraries (for convenience):
+h2. *JS Libraries (for convenience):*
 * backbone.js : what we're here for
 * backbone-localstorage.js : let's a client-side browser storage utility
 * underscore-1.1.6.js : needed by backbone.js
